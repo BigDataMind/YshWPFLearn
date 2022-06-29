@@ -1,0 +1,9 @@
+﻿<Window x:Class="StudyXML01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="使用Attribute为对象属性赋值" Height="188" Width="300">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Rectangle x:Name="rectangle" Width="200" Height="120" Fill="Blue"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="标记扩展.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="标记扩展" Height="110" Width="240">
+    <Grid>
+        <StackPanel Background="LightSlateGray">
+            <TextBox Text="{Binding ElementName=slider1,Path=Value,Mode=OneWay}" Margin="5"/>
+            <Slider x:Name="slider1" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

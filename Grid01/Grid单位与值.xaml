@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Grid01.Grid单位与值"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Grid01"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <!--属性值为double类型 像素（px)为默认单位 可省略-->
+            <RowDefinition Height="30px"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="0.5in"/>
+            <RowDefinition Height="1cm"/>
+            <RowDefinition Height="30pt"/>
+        </Grid.RowDefinitions>
+    </Grid>
+</UserControl>

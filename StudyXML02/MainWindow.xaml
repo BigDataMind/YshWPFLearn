@@ -1,0 +1,13 @@
+﻿<Window x:Class="StudyXML02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="属性元素" Height="450" Width="800">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <!--以对象形式为属性赋值-->
+        <Rectangle x:Name="rectangle" Width="200" Height="120">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Blue"/>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+﻿<Window x:Class="Binding05_多维集合元素作Path.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Set As Path" Height="200" Width="200">
+    <StackPanel>
+        <TextBox x:Name="textBox1" BorderBrush="Black" Margin="5"/>
+        <TextBox x:Name="textBox2" BorderBrush="Black" Margin="5"/>
+        <TextBox x:Name="textBox3" BorderBrush="Black" Margin="5"/>
+    </StackPanel>
+</Window>

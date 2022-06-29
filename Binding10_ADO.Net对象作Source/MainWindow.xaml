@@ -1,0 +1,9 @@
+﻿<Window x:Class="Binding10_ADO.Net对象作Source.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DataTable Source" Height="206" Width="250">
+    <StackPanel Background="LightBlue">
+        <ListBox x:Name="listBoxStudents" Height="130" Margin="5"/>
+        <Button Content="Load" Height="25" Margin="5,0" Click="Button_Click"/>
+    </StackPanel>
+</Window>

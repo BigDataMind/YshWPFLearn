@@ -1,0 +1,9 @@
+﻿<Window x:Class="Binding01_Basic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Simple Binding" Height="110" Width="300">
+    <StackPanel>
+        <TextBox x:Name="textBoxName" BorderBrush="Black" Margin="5"/>
+        <Button Content="Add Age" Margin="5" Click="Button_Click"/>
+    </StackPanel>
+</Window>
